@@ -4,7 +4,7 @@ ul {
   padding: 0px;
 }
 input,
-button{
+button {
   outline:none;
   box-sizing: border-box;
 }
@@ -13,6 +13,11 @@ button{
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
+}
+.container {
+  display: block;
+  width: 400px;
+  margin: 0 auto 0;
 }
 
 .info {
@@ -27,17 +32,12 @@ button{
 .info__link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .info {
     text-align: center;
   }
 }
-.container {
-  display: block;
-  width: 400px;
-  margin: 0 auto 0;
-}
+
 .btn {
   background: none;
   border: 0px;
@@ -50,6 +50,7 @@ button{
 .btn:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .title,
 .add__label {
@@ -82,7 +83,7 @@ button{
   display: block;
   margin: 0 0 20px;
 }
-.add__input{
+.add__input {
   width: 318px;
 }
 .add__btn:hover {
@@ -126,7 +127,7 @@ button{
 }
 
 /* Completed */
-.completed .list__label{
+.completed .list__label {
   text-decoration: line-through;
   color: #888;
 }
