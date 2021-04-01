@@ -1,5 +1,18 @@
 /* Basic Style */
-body {
+ul {
+  margin:0;
+  padding: 0px;
+}
+li {
+  list-style:none;
+}
+input,
+button{
+  outline:none;
+  box-sizing: border-box;
+}
+
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -31,17 +44,6 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-}
-ul {
-  margin:0;
-  padding: 0px;
-}
-li {
-  list-style:none;
-}
-input,
-button{
-  outline:none;
 }
 .btn {
   background: none;
