@@ -4,13 +4,14 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.info img {
+.info__img {
   width: 100%;
 }
 .info__link {
