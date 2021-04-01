@@ -38,10 +38,6 @@ button{
   width: 400px;
   margin: 0 auto 0;
 }
-.task {
-  width: 56%;
-  display: inline-block;
-}
 .btn {
   background: none;
   border: 0px;
