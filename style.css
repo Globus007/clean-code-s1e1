@@ -1,11 +1,11 @@
 /* Basic Style */
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 input,
 button {
-  outline:none;
+  outline: none;
   box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@ button {
 .info__link {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .info {
     text-align: center;
   }
@@ -93,7 +93,7 @@ button {
 /* Task list */
 .list {
   overflow: hidden;
-  list-style:none;
+  list-style: none;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
 }
@@ -111,8 +111,8 @@ button {
   font-size: 18px;
 }
 .list__input {
-    width: 226px;
-    display: none;
+  width: 226px;
+  display: none;
 }
 .delete:hover {
   color: #cf2323;
@@ -134,10 +134,10 @@ button {
 
 /* Edit Task */
 .edit-mode .list__input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .list__label {
-  display:none;
+  display: none;
 }
