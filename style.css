@@ -130,10 +130,10 @@ ul {
 }
 
 /* Edit Task */
-.edit-mode .list__input {
+.list--edit-mode .list__input {
   display: inline-block;
   width: 224px;
 }
-.edit-mode .list__label {
+.list--edit-mode .list__label {
   display: none;
 }
